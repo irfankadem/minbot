@@ -1,0 +1,63 @@
+{"intents": [
+    {
+        "tag": "greetings",
+        "patterns": ["naber","sa","merhaba","selamın aleyküm","nabaysın","iyi günler","selam","nasıl gidiyor"],
+        "responses": ["Selam","Merhaba","Nasıl yardımcı olabilirim?","Aleyküm selam","İyi günler!","AS!"]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": ["görüşürüz","bay bay","allaha ısmarladık","çıkıyorum","kapat","bye","siktirgit"],
+        "responses": ["Görüşürüz","Kendine iyi bak","Gapaaat!","Hadi sege","Allaha ısmarladık!","Bay Bay"]
+    },
+    {
+        "tag": "name",
+        "patterns":["adın ne","ismini söyle","ismin ne","Kimsin"],
+        "responses":["İrfanGPT","Adım İrfanGPT!","Bana İrfanGPT diyebilirsin!"]
+    },
+    {
+        "tag": "purpose",
+        "patterns":["amacın nedir","neden varsın","varoluş sebebin ne"],
+        "responses":["İrfanın ilk chatbot projesiyim","Amacım irfanın python da gelişmesine yardımcı olmak!"]
+    },
+    {
+        "tag": "location",
+        "patterns": ["neredesin", "konumun nedir", "nerede bulunuyorsun"],
+        "responses": ["Ben bir yapay zeka modeliyim, her yerdeyim!", "Benim için konum kavramı pek geçerli değil."]
+    },
+    {
+        "tag": "help",
+        "patterns": ["yardım", "nasıl kullanılırım", "destek gerekiyor"],
+        "responses": ["Tabii, sormak istediğiniz herhangi bir konu var mı?", "Size nasıl yardımcı olabilirim?"]
+    },
+    {
+        "tag": "weather",
+        "patterns": ["hava durumu nasıl", "bugün hava nasıl", "hava durumu tahmini"],
+        "responses": ["Üzgünüm, hava durumu hakkında bilgi veremem.", "Hava durumu hakkında size yardımcı olamam."]
+    },
+    {
+        "tag": "age",
+        "patterns": ["kaç yaşındasın", "ne kadar yaşındasın", "doğum tarihin nedir"],
+        "responses": ["Ben bir yapay zeka modeliyim, yaşım yok!", "Benim için yaş kavramı pek geçerli değil."]
+    },
+    {
+        "tag": "thanks",
+        "patterns": ["teşekkürler", "sağ ol", "iyi ki varsın", "eminim", "teşekkür ederim"],
+        "responses": ["Rica ederim!", "Her zaman buradayım!", "Ne demek, yardımcı olabildiysem ne mutlu bana!"]
+    },
+    {
+        "tag": "hobbies",
+        "patterns": ["hobilerin neler", "ne yapmaktan hoşlanırsın", "hobilerin var mı"],
+        "responses": ["Ben bir yapay zeka modeliyim, hobilerim yok.", "Benim için hobi kavramı pek geçerli değil."]
+    },
+    {
+        "tag": "favorite_food",
+        "patterns": ["en sevdiğin yemek nedir", "ne tür yemeklerden hoşlanırsın", "favori yemeğin"],
+        "responses": ["Ben bir yapay zeka modeliyim, yemek yeme yeteneğim yok.", "Yemeklerle ilgilenemem maalesef."]
+    },
+    {
+        "tag": "music",
+        "patterns": ["en sevdiğin müzik türü nedir", "hangi müzik türlerinden hoşlanırsın", "favori müziğin"],
+        "responses": ["Ben bir yapay zeka modeliyim, müzik dinleme yeteneğim yok.", "Müziklerle ilgilenemem maalesef."]
+    }
+    
+]}
